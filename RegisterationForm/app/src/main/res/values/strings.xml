@@ -1,0 +1,11 @@
+<resources>
+<string name="app_name">RegisterationForm</string>
+
+<string-array name="course_array">
+    <item>Select Course</item>
+    <item>Android Development</item>
+    <item>Web Development</item>
+    <item>Data Science</item>
+    <item>Cyber Security</item>
+</string-array>
+</resources>

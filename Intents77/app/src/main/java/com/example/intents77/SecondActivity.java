@@ -1,0 +1,16 @@
+package com.example.intents77;
+
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SecondActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        // Connect SecondActivity with activity_second.xml
+        setContentView(R.layout.activity_second);
+    }
+}

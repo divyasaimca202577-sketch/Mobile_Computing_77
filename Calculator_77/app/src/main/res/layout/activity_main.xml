@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="bottom|end"
+        android:padding="20dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="4"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignMargins">
+
+        <!-- Row 1 -->
+
+        <Button
+            android:id="@+id/btnAC"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/operator_bg"
+            android:text="AC"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/operator_bg"
+            android:text="/"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/operator_bg"
+            android:text="×"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/operator_bg"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <!-- Row 2 -->
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="7"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="8"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="9"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/operator_bg"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <!-- Row 3 -->
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="5"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/operator_bg"
+            android:text="="
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <!-- Row 4 -->
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_bg"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+    </GridLayout>
+
+</LinearLayout>
