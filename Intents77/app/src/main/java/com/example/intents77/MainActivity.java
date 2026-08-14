@@ -1,6 +1,8 @@
 package com.example.intents77;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.net.Uri;
 import android.os.Bundle;
 import android.content.Intent;
 import android.widget.Button;
@@ -15,7 +17,15 @@ public class MainActivity extends AppCompatActivity {
         btnNext.setOnClickListener(v -> {
             Intent intent =
                     new Intent(MainActivity.this, SecondActivity.class);
-            startActivity(intent);
+            // Create an Implicit Intent
+            // ACTION_VIEW tells Android that we want
+            // to view some content.
+            Intent intent1 = new Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("https://www.google.com")
+            );
+
+            startActivity(intent1);
         });
     }
 }
