@@ -1,0 +1,3 @@
+- [x] Update `activity_main.xml` with provided layout code
+- [x] Update `MainActivity.java` with provided logic (adjusting package name)
+- [x] Verify build
