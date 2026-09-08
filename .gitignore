@@ -1,2 +1,16 @@
+# Android Studio
+.idea/
+
+# Gradle
+.gradle/
+
+# Build output
+build/
+**/build/
+
+# Local Android SDK configuration
+local.properties
+
+# Generated artifacts
 .artifacts/
 **/.artifacts/
