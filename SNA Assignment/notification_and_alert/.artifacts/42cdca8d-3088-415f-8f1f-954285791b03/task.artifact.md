@@ -1,3 +1,0 @@
-- `[x]` Add attribution string to `strings.xml`
-- `[x]` Add attribution `TextView` to `activity_main.xml`
-- `[x]` Create walkthrough
