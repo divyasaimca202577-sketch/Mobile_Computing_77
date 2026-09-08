@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.filehandling77"
+    namespace = "com.example.progressbar77"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,8 +11,8 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.filehandling77"
-        minSdk = 23
+        applicationId = "com.example.progressbar77"
+        minSdk = 24
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -41,8 +41,8 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
     implementation(libs.material)
-    implementation(libs.navigation.fragment)
-    implementation(libs.navigation.ui)
+//    implementation(libs.navigation.fragment)
+//    implementation(libs.navigation.ui)
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)

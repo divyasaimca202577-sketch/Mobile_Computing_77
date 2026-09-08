@@ -1,4 +1,4 @@
-package com.example.filehandling77;
+package com.example.progressbar77;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.filehandling77", appContext.getPackageName());
+        assertEquals("com.example.progressbar77", appContext.getPackageName());
     }
 }

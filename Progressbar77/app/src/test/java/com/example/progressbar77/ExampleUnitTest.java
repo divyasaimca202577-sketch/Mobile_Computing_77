@@ -1,4 +1,4 @@
-package com.example.filehandling77;
+package com.example.progressbar77;
 
 import org.junit.Test;
 
